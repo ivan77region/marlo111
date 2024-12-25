@@ -1,0 +1,7 @@
+<form onSubmit={onSubmit}>
+      <label>Имя</label>
+      <input className='input' name='Имя' required></input>
+      <label>Телефон</label>
+      <input className='input' name='Номер телефона' required></input>
+      <button type="submit">Хочу в команду!</button>
+    </form>

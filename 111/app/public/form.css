@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    font-family: Montserrat, cursive;
+}
+
+.main{
+    margin: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main__title{
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title a{
+    color: #D20C34;
+    text-decoration: none;
+    margin-bottom: 6vw;
+}
+
+.main__title a span{
+    font-size: calc(10px + 0.5vw) !important;
+}
+
+.main__title-content-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__title a span:not(:last-child, :first-child){
+    color: rgb(0, 0, 0);
+    opacity: unset;
+}
+
+.main__title div span:not(:last-child){
+    font-size: 4.5vw;
+    margin-bottom: 4vw;
+}
+
+.main__title span:not(:first-child){
+    font-size: 1.5vw;
+    opacity: 0.5;
+}
+
+.form__content-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.form3 div input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-decoration: none;
+}
+
+.form3 div input{
+    height: 1vw;
+    width: calc(80px + 15vw);
+}
+
+.form3 div label{
+    margin-top: 5vw;
+    font-size: calc(6px + 1vw);
+}
+
+
+.form__content-box div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__content-box div:not(:last-child){
+    margin-right: 2vw;
+}
+
+.form__content-box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__content-box2 input{
+    width: 100% !important;
+}
+
+.subform{
+    margin-bottom: 5vw;
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subform span{
+    opacity: 0.5;
+    font-size: calc(6px + 0.5vw);
+}
+
+.subform a{
+    display: block;
+    transition: background .4s ease;  
+    padding: 3% 2%;
+    font-size: calc(0.2rem + 0.8vw);
+    font-weight: 400;
+    border-radius: 23px;
+    text-decoration: none; 
+    color: rgb(0, 0, 0); 
+    text-align: center;
+    align-items: center;
+    background: #D9D9D9;
+}
+  
+.subform a:hover{
+    background: transparent; 
+    color: #D20C34;
+}
+
+.button-send{
+    margin-top: 2vw;
+    margin: auto;
+    width: fit-content;
+    display: block;
+    transition: background .4s ease;
+    padding: 3% 7%;
+    font-size: calc(0.2rem + 0.8vw);
+    font-weight: 400;
+    border-radius: 23px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    background: #D20C34;
+}
+
+.button-send:hover{
+    background: transparent; 
+    color: #D20C34;
+}
+
+.contact-us{
+    margin-left: 5%;
+    opacity: 0.5;
+    font-size: calc(6px + 0.5vw);
+}
+
+.contact-us span:not(:last-child){
+    margin-right: 2vw;
+}
+
+@media (max-width: 680px) {
+    .main{
+      flex-direction: column;
+    }
+
+    .form3{
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+
+    .contact-us{
+        margin-top: 60vw;
+    }
+  }

@@ -1,0 +1,55 @@
+.form{
+  display: flex;
+  align-items: flex-end;
+}
+
+.form div:not(:last-child){
+  width: calc(0.25rem + 22vw);
+}
+
+.button{
+  z-index: 2;
+  position: relative;
+  display: block;
+  transition: background .4s ease;  
+  padding: 2px 0;
+  font-size: calc(0.25rem + 1vw);
+  font-weight: 400;
+  border-radius: 20px;
+  background: transparent; 
+  text-decoration: none; 
+  color: rgb(201, 201, 201); 
+  text-align: center;
+  align-items: center;
+  border: none;
+  min-width: calc(0.25rem + 13vw);
+}
+  
+.button:hover{
+  background: rgb(190, 1, 1);
+  color: rgb(37, 37, 37);
+}
+
+.form__submit{
+  flex-direction: column-reverse;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.masckot{
+  position: absolute;
+  z-index: 1;
+  height: calc(1rem + 8vw);
+  bottom: 30%;
+}
+
+
+
+@media (max-width: 1025px) {
+  .form div:not(:last-child){
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+  }
+}
