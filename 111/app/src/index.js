@@ -1,7 +1,10 @@
 import React from 'react';
-// import Contact from './Contact.jsx'
+// import Contact from '.components/Contact.jsx'
 import ReactDOM from 'react-dom/client';
 import './index.css';
+
+import MARLO from './img/MARLO.svg';
+
 import masckot from './img/Masckot.png'
 import img2 from './img/image.png'
 import img3 from './img/aboutus.svg'
@@ -37,12 +40,12 @@ root.render(
         <img src={profile}></img>
       </a>
     </nav>
+    
     <div className='header__logo'>
       <a href='#'><span>M</span><span>ARLO</span><span>.</span></a>
     </div>
     <a className='button' id='button__discuss' href='form.html'>Обсудить проект</a>
   </div>
-
 
   <div className='main'>
     <div className='main__title-container'>
