@@ -20,6 +20,28 @@
   top: 0%;
 }
 
+.main__title-container {
+  display: flex;
+  
+  /* ... ваши существующие стили ... */
+  background-image: url(./img/MARLO.svg); /* путь к изображению */
+  background-size: cover; /* Либо contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; /* Установите фиксированную высоту */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+    flex-wrap: nowrap;
+    justify-content: center;
+  top: 210px;
+  
+}
+
+
+
 .header__nav-panel{
   display: flex;
   justify-content: center;
@@ -135,10 +157,7 @@
   margin: 2% 10%;
 }
 
-.main__title-container{
-  margin-top: calc(0.5rem + 15vw);
-  margin-bottom: calc(0.5rem + 15vw);
-}
+
 
 .main__title{
   font-size: calc(2rem + 2vw);
