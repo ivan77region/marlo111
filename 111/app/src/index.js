@@ -1,8 +1,14 @@
 // Импортируем необходимые модули React и ReactDOM для работы с React-компонентами
 import React from 'react';
+<<<<<<< Updated upstream
 import ReactDOM from 'react-dom/client';
 
 // Импортируем CSS для стилизации приложения
+=======
+// import Contact from './Contact.jsx'
+
+
+>>>>>>> Stashed changes
 import './index.css';
 
 // Импортируем изображения, которые будут использоваться в проекте
